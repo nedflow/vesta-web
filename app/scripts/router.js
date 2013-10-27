@@ -1,0 +1,3 @@
+VestaWeb.Router.map(function () {
+  
+});
