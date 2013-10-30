@@ -19,8 +19,8 @@
                     <div class="well sidebar-nav">
                         <strong>Colors</strong>
                         <ul class="list-group">
-                        {{#each item in controller}}
-                            <li class="list-group-item">{{item}}</li>
+                        {{#each model}}
+                        <li class="list-group-item">{{#link-to 'color' this}}{{color}}{{/link-to}}</li>
                         {{/each}}
                         </ul>
                     </div>
